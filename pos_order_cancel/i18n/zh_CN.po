@@ -1,0 +1,443 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_order_cancel
+#
+# Translators:
+# Translation Bot <i18n-bot@it-projects.info>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-24 16:08+0000\n"
+"PO-Revision-Date: 2019-01-26 13:13+0800\n"
+"Language-Team: German (https://www.transifex.com/it-projects-llc/teams/76080/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_pos_form
+msgid "(update)"
+msgstr "(更新)"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_config_allow_custom_reason
+msgid "Allow custom cancellation reason"
+msgstr "允许自定义取消原因"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_tree
+msgid "Amount total"
+msgstr "合计金额"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_tree
+msgid "Amount total w/o Tax"
+msgstr "总税金"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/js/widgets.js:243
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:61
+#, python-format
+msgid "Apply"
+msgstr "应用"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:35
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:58
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_canceled_date
+msgid "Cancelation Time"
+msgstr "取消时间"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_filter
+msgid "Canceled"
+msgstr "取消"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_canceled_line_ids
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_form
+msgid "Canceled Line"
+msgstr "已取消的行"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_canceled_lines
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_graph
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_pivot
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_order_line_canceled_tree
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Canceled Lines"
+msgstr "已取消的行"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_pos_form
+msgid "Canceled Order lines"
+msgstr "已取消的订单行"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/js/widgets.js:56
+#, python-format
+msgid "Cancellation Reason"
+msgstr "取消原因"
+
+#. module: pos_order_cancel
+#: selection:pos.order,computed_state:0
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_qty
+msgid "Cancelled Quantity"
+msgstr "取消的数量"
+
+#. module: pos_order_cancel
+#: model:ir.actions.act_window,help:pos_order_cancel.pos_cancelled_reason_action
+msgid "Click to define a new Refund / Cancellation Reason."
+msgstr "单击以定义新的退款/取消原因。"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_create_uid
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_create_date
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: pos_order_cancel
+#: model:pos.cancelled_reason,name:pos_order_cancel.demo_reason_3
+msgid "Customer doesn't have enough money to pay"
+msgstr "客户没有足够的钱来支付"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Day of canceled date"
+msgstr "取消的日期"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Days"
+msgstr "Days"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_discount
+msgid "Discount (%)"
+msgstr "折扣(%)"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_display_name
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_id
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_order_cancel
+#: selection:pos.order,computed_state:0
+msgid "Invoiced"
+msgstr "发票"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason___last_update
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_write_uid
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_write_date
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_write_date
+msgid "Last Updated on"
+msgstr "上次更新日期"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_pack_lot_ids
+msgid "Lot/serial Number"
+msgstr "批号/序列号"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Month of canceled date"
+msgstr "取消日期的月份"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Months"
+msgstr "Months"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:74
+#, python-format
+msgid "Name"
+msgstr "名称"
+
+#. module: pos_order_cancel
+#: selection:pos.order,computed_state:0
+msgid "New"
+msgstr "新的"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "No Negative Refunds"
+msgstr "无负退款"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:39
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_pos_form
+msgid "Order Cancellation Reason"
+msgstr "订单取消原因"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/js/models.js:36
+#, python-format
+msgid "Order Deleting"
+msgstr "订单删除"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_order_id
+msgid "Order Ref"
+msgstr "订单编号"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:24
+#, python-format
+msgid "Other"
+msgstr "其他"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "POS Order"
+msgstr "POS订单"
+
+#. module: pos_order_cancel
+#: selection:pos.order,computed_state:0
+msgid "Paid"
+msgstr "支付"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,help:pos_order_cancel.field_pos_order_line_canceled_user_id
+msgid "Person who removed order line"
+msgstr "删除订单行的人员"
+
+#. module: pos_order_cancel
+#: model:ir.model,name:pos_order_cancel.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS订单"
+
+#. module: pos_order_cancel
+#: selection:pos.order,computed_state:0
+msgid "Posted"
+msgstr "发布"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_cancelled_reason_ids
+msgid "Predefined Reasons"
+msgstr "预定义的原因"
+
+#. module: pos_order_cancel
+#: model:pos.cancelled_reason,name:pos_order_cancel.demo_reason_2
+msgid "Price differs from one at Store shelf"
+msgstr "价格与商店货架上的价格不同"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_product_id
+msgid "Product"
+msgstr "产品"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Products"
+msgstr "产品"
+
+#. module: pos_order_cancel
+#. openerp-web
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:9
+#: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:12
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_name
+#, python-format
+msgid "Reason"
+msgstr "原因"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_cancellation_reason
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_reason
+msgid "Reasons as Text"
+msgstr ""
+
+#. module: pos_order_cancel
+#: model:ir.actions.act_window,name:pos_order_cancel.action_report_cancelations_details
+msgid "Refund / Cancelation Details"
+msgstr "退款/取消详情"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.pos_cancelled_reason_form_view
+#: model:ir.ui.view,arch_db:pos_order_cancel.pos_cancelled_reason_tree_view
+msgid "Refund / Cancellation Reason"
+msgstr "退款/取消原因"
+
+#. module: pos_order_cancel
+#: model:ir.actions.act_window,name:pos_order_cancel.pos_cancelled_reason_action
+#: model:ir.ui.menu,name:pos_order_cancel.menu_pos_cancelled_reason
+msgid "Refund / Cancellation Reasons"
+msgstr "退款/取消原因"
+
+#. module: pos_order_cancel
+#: model:ir.ui.menu,name:pos_order_cancel.menu_report_cancelations_details
+#: model:ir.ui.view,arch_db:pos_order_cancel.pos_config_view_form
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_pos_form
+msgid "Refunds / Cancellations"
+msgstr "退款/取消"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_current_qty
+msgid "Remainder"
+msgstr "剩余"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_pos_pos_form
+msgid "Return Products"
+msgstr "退货产品"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_user_id
+msgid "Salesman"
+msgstr "业务员\t"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_sequence
+msgid "Sequence"
+msgstr "序号"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_is_cancelled
+msgid "Stage Cancelled"
+msgstr ""
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_computed_state
+msgid "Status"
+msgstr "状态"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_price_subtotal_incl
+msgid "Subtotal"
+msgstr "小计"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_price_subtotal
+msgid "Subtotal w/o Tax"
+msgstr "税收小计"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_cancelled_amount_tax
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_tax_ids
+msgid "Taxes"
+msgstr "税"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,help:pos_order_cancel.field_pos_order_line_canceled_reason
+msgid "The Reason of Line Canceled"
+msgstr "取消行的原因"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "This Month"
+msgstr "本月"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "This Year"
+msgstr "今年"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Today"
+msgstr "今天"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_cancelled_amount_total
+msgid "Total"
+msgstr "总计"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,field_description:pos_order_cancel.field_pos_order_line_canceled_price_unit
+msgid "Unit Price"
+msgstr "单价"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Users"
+msgstr "用户"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Week of canceled date"
+msgstr "取消日期的周"
+
+#. module: pos_order_cancel
+#: model:ir.ui.view,arch_db:pos_order_cancel.view_report_cancelations_search
+msgid "Weeks"
+msgstr "Weeks"
+
+#. module: pos_order_cancel
+#: model:ir.model.fields,help:pos_order_cancel.field_pos_config_allow_custom_reason
+msgid "When not active, user will be able to select predefined reasons only"
+msgstr "当不活动时, 用户将只能选择预定义的原因"
+
+#. module: pos_order_cancel
+#: model:pos.cancelled_reason,name:pos_order_cancel.demo_reason_1
+msgid "Wrong Quantity"
+msgstr "错误的数量"
+
+#. module: pos_order_cancel
+#: model:ir.model,name:pos_order_cancel.model_pos_cancelled_reason
+msgid "pos.cancelled_reason"
+msgstr ""
+
+#. module: pos_order_cancel
+#: model:ir.model,name:pos_order_cancel.model_pos_config
+msgid "pos.config"
+msgstr ""
+
+#. module: pos_order_cancel
+#: model:ir.model,name:pos_order_cancel.model_pos_order_line_canceled
+msgid "pos.order.line.canceled"
+msgstr ""
